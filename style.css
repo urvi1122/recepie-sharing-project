@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color: #fff8dc;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+#recipesContainer {
+  margin-top: 20px;
+}
+
+.recipe {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fdf5e6;
+}
