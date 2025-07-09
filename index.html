@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Receipe Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Receipe Book</h1>
+
+  <!-- Add Recipe Form -->
+  <form id="receipeForm">
+    <input type="text" id="title" placeholder="Receipe Title" required><br>
+    <textarea id="ingredients" placeholder="Ingredients" required></textarea><br>
+    <textarea id="steps" placeholder="Steps to make" required></textarea><br>
+    <button type="submit">Add Receipe</button>
+  </form>
+
+  <hr>
+
+  <!-- Recipes List -->
+  <h2>All Receipes</h2>
+  <div id="receipesContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

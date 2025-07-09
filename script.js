@@ -1,8 +1,8 @@
-const form = document.getElementById('recipeForm');
-const container = document.getElementById('recipesContainer');
+const form = document.getElementById('receipeForm');
+const container = document.getElementById('receipesContainer');
 
 // Load saved recipes from localStorage
-let recipes = JSON.parse(localStorage.getItem('recipes')) || [];
+let recipes = JSON.parse(localStorage.getItem('receipes')) || [];
 showRecipes();
 
 form.addEventListener('submit', function(e) {
@@ -15,7 +15,7 @@ form.addEventListener('submit', function(e) {
   const newRecipe = { title, ingredients, steps };
   recipes.push(newRecipe);
 
-  localStorage.setItem('recipes', JSON.stringify(recipes));
+  localStorage.setItem('receipes', JSON.stringify(receipes));
   showRecipes();
   form.reset();
 });
